@@ -1,5 +1,5 @@
 {
-  "name": "performancecheck",
+  "name": "checkduration",
   "version": "1.0.0",
   "description": "To check function execution time duration",
   "main": "index.js",
@@ -10,7 +10,8 @@
     "timecheck",
     "checktimespan",
     "duration",
-    "performance"
+    "performance",
+    "checkDuration"
   ],
   "author": "Aravinth Sankar B",
   "license": "MIT",
