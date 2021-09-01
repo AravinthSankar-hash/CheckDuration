@@ -1,0 +1,17 @@
+{
+  "name": "performancecheck",
+  "version": "1.0.0",
+  "description": "To check function execution time duration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aravinth Sankar B",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.10"
+  }
+}
