@@ -6,6 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "timecheck",
+    "checktimespan",
+    "duration",
+    "performance"
+  ],
   "author": "Aravinth Sankar B",
   "license": "MIT",
   "dependencies": {
