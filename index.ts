@@ -1,11 +1,9 @@
-import moment from "moment"; 
+const moment = require("moment");
 
-function performancecheck(functionToValidate: any, ...theArgs: any) {
+export const performancecheck = (functionToValidate: any, ...theArgs: any) =>{
     const timeBeforeExecution = moment(new Date());
     functionToValidate(...theArgs);
     const timeAfterExecution = moment(new Date());
     const timeDiff = timeAfterExecution.diff(timeBeforeExecution);
     return timeDiff;
 }
-
-module.exports = { performancecheck: performancecheck }
