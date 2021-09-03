@@ -25,4 +25,4 @@ import { performancecheck } from 'checkDuration';
             return a*b;
         }, [5,100000]
     )
-```js
+```
